@@ -1,0 +1,19 @@
+.status {
+  color: black;
+}
+
+.isOffline {
+  composes: status;
+  color: red;
+}
+
+.isOnline {
+  composes: status;
+  color: green;
+}
+
+.item {
+  border: 2px solid;
+  border-radius: 4px;
+  padding: 10px;
+}
